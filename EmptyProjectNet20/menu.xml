@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+  <TreeNode Text="系统管理" SingleClickExpand="true" Expanded="true">
+    <TreeNode Text="用户管理" Target="mainframe" NavigateUrl="~/pms_User_Info.aspx"></TreeNode>
+  </TreeNode>
+  <TreeNode Text="基础信息管理" SingleClickExpand="true" Expanded="true">
+    <TreeNode Text="添加机床种类" Target="mainframe" NavigateUrl="~/pms_Machine_Info.aspx"></TreeNode>
+    <TreeNode Text="添加顾客种类" Target="mainframe" NavigateUrl="~/pms_Customer_Info.aspx"></TreeNode>
+    <TreeNode Text="添加产品材质" Target="mainframe" NavigateUrl="~/pms_Product_Mater_new.aspx"></TreeNode>
+    <TreeNode Text="添加产品结构" Target="mainframe" NavigateUrl="~/pms_Product_Struc_new.aspx"></TreeNode>
+    <TreeNode Text="添加产品行业" Target="mainframe" NavigateUrl="~/pms_Product_Indust_new.aspx"></TreeNode>
+  </TreeNode>
+  <TreeNode Text="报价查询" SingleClickExpand="true" Expanded="true">
+    <TreeNode Text="加工报价查询" Target="mainframe" NavigateUrl="~/pms_Product_Info_All.aspx"></TreeNode>
+  </TreeNode>
+  <TreeNode Text="营销管理" SingleClickExpand="true" Expanded="true">
+    <TreeNode Text="新产品维护" Target="mainframe" NavigateUrl="~/pms_Product_Info.aspx">
+    </TreeNode>
+    <TreeNode Text="新产品报价" Target="mainframe" NavigateUrl="~/pms_Quotation_Info.aspx">
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="报价审批" SingleClickExpand="true" Expanded="true">
+    <TreeNode Text="加工报价审批" Target="mainframe" NavigateUrl="~/pms_Processing_Approval_Info.aspx"></TreeNode>
+  </TreeNode>
+</Tree>
